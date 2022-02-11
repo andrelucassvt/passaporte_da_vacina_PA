@@ -1,16 +1,6 @@
-# passaporte_vacina_pa
+# Passaporte da Vacina PA
 
-A new Flutter project.
+Replica do aplicativo "Passaporte da Vacina PA" lançado pelo Governo do Estado do Pará que facilita a emissão do certificado nacional de vacinação e a validação do mesmo via leitura de Qrcode.
 
-## Getting Started
+A decisão de replicar as funcionalidades do app e afins, faz parte de uma meta pessoal para movimentar cada vez mais meu GitHub e deixar os códigos abertos caso alguma pessoa queira tirar como base, principalmente quem está iniciando.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
