@@ -19,7 +19,21 @@ class _HomePageState extends State<HomePage> {
         leading: Image.asset('assets/governo_pa.jpeg'),
         actions: [
           IconButton(
-            onPressed: (){}, 
+            onPressed: () => showDialog(
+              context: context, 
+              builder: (context) => const SimpleDialog(
+                title: Text('Dev: André Salvador'),
+                children: [
+                  Padding(
+                    padding: EdgeInsets.all(8.0),
+                    child: CircleAvatar(
+                      minRadius: 200,
+                      foregroundImage: AssetImage('assets/dev.jpeg'),
+                    ),
+                  )
+                ],
+              )
+            ),
             icon: const Icon(Icons.info_outline),
           )
         ],
